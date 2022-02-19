@@ -1,0 +1,54 @@
+h2 {
+    color: rgb(240, 152, 89); 
+    margin-bottom: 5%; 
+    text-decoration: underline;
+}
+h1 {
+    text-align: left;
+    font-size: 50px;
+    color: rgb(85, 52, 9);
+}
+p {
+    text-align: justify; 
+    margin-bottom: 5%;
+}
+.flottant {
+    float: left;
+}
+.n1 {
+    width: 50%;
+    background-color: peachpuff;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left;}
+body {
+    display: flex;
+}
+p { 
+    width: 95%;
+    background-color: peachpuff;
+}
+.n2 {
+    width: 50%;
+    background-color: white;
+    margin-left: 1%;
+}
+#tof {
+    border-radius: 75%;
+}
+.flottant {
+    clear: none;
+}
+@media screen and (max-width: 700px) 
+{
+    h1 {
+        font-size: 40px;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .n1, .n2 {
+        width: auto;
+    }
+}
